@@ -126,7 +126,7 @@ li{
 
 .infinitefade{
     position: absolute;
-    top: 80%;
+    top: 78%;
     left: 50%;
     transform: translate( -55%, -50% );
     height: 50px;
