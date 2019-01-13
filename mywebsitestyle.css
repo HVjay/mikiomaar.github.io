@@ -202,9 +202,8 @@ li{
      margin: auto;
  }
 
- .container img{
+ .container img, video{
     left: 50%;
-    transform: translate(25%, 30%);
     
 }
 
@@ -215,7 +214,8 @@ li{
      width: auto;
      padding: 16px;
      margin-top: -22px;
-     color: white;
+     color:white;
+    background-color: rgb(207, 188, 13);
      font-size: 18px;
      transition: 0.6s ease;
      user-select: none;
@@ -233,4 +233,6 @@ li{
 
  .left:hover, .right:hover {
      background-color: rgba( 0,0,0,0.8);
+     color: rgb(207, 188, 13);
+     border-color: rgb(207, 188, 13);
  }
