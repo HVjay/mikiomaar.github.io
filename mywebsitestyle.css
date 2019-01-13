@@ -236,3 +236,13 @@ li{
      color: rgb(207, 188, 13);
      border-color: rgb(207, 188, 13);
  }
+
+ .fadepic {
+     animation-name: fadepic;
+     animation-duration: 2s;
+ }
+
+ @keyframes fadepic {
+     from { opacity: .35 }
+     to {opacity: 1}
+ }
